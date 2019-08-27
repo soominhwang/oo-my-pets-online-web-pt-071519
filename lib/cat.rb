@@ -2,14 +2,14 @@ class Cat
   # code goes here
   attr_accessor :owner, :mood
 
-  @@cat = []
+  @@cats = []
 
   def initialize(name, owner, mood="nervous")
     @name = name
     @owner = owner
     owner.cats << self
     @mood = mood
-    @@cat << self
+    @@cats << self
   end
 
   def name
@@ -17,6 +17,6 @@ class Cat
   end
 
   def self.all
-    @@cat
+    @@cats
   end
 end
