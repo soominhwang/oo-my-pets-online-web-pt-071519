@@ -13,6 +13,7 @@ class Owner
   end
 
   def buy_cat (name)
+    
   end
 
   def name
