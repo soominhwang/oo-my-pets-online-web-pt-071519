@@ -20,8 +20,9 @@ class Owner
     Dog.new(name, self)
   end
 
-  def walk_dogs 
-  end 
+  def walk_dogs
+    
+  end
 
   def name
     @name
