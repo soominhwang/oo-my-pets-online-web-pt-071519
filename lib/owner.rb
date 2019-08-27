@@ -8,7 +8,7 @@ class Owner
   def initialize (name)
     @name = name
     @@all << self
-    @cats = []
+    @cats = [] #owner object has classes
     @dogs = []
   end
 
