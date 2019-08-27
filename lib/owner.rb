@@ -26,6 +26,10 @@ class Owner
     end
   end
 
+  def feed_cats
+    
+  end
+
   def name
     @name
   end
